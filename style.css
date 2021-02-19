@@ -1,0 +1,76 @@
+*{
+    font-family: 'Brygada 1918', serif;
+
+}
+
+section{
+    height: 70px;
+    background: black;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.marcas-impressoras {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.bloco-marca {
+    width: 160px;
+    height: 150PX;
+    border: 2px solid whitesmoke;
+    box-shadow: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.imagem-logo {
+    width: 80%;
+}
+
+.container {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 28px;
+    margin: 10px auto;
+}
+
+input {
+    width: 530px;
+    height: 25px;
+    font-size: 16px;
+    padding: 5px 18px;
+    border: solid rgba(73, 169, 207, 0.925);
+    border-radius: 30px;
+    outline: none;
+}
+
+.cartuchos {
+    height: 300px;
+}
+
+footer{
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 2em;
+    color: white;
+}
