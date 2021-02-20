@@ -1,6 +1,9 @@
 *{
     font-family: 'Brygada 1918', serif;
+}
 
+body {
+    width: 100%;
 }
 
 section{
@@ -24,8 +27,8 @@ section h1 {
 }
 
 .bloco-marca {
-    width: 160px;
-    height: 150PX;
+    width: 130px;
+    height: 120PX;
     border: 2px solid whitesmoke;
     box-shadow: wheat;
     display: flex;
@@ -36,6 +39,10 @@ section h1 {
 
 .imagem-logo {
     width: 80%;
+}
+
+#ajuste-hp {
+    width: 40%;
 }
 
 .container {
@@ -49,7 +56,7 @@ section h1 {
 }
 
 input {
-    width: 530px;
+    width: 40%;
     height: 25px;
     font-size: 16px;
     padding: 5px 18px;
@@ -73,4 +80,27 @@ footer{
 footer h2 {
     font-size: 2em;
     color: white;
+}
+
+@media screen and (max-width: 480px){
+    .marcas-impressoras{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bloco-marca {
+        margin-top: 40px;
+        width: 250px;
+    }
+    
+    .imagem-logo {
+        width: 70%;
+    }
+
+    #ajuste-hp {
+        width: 35%;
+    }
+   
 }
